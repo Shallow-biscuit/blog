@@ -4,20 +4,20 @@ import type * as Preset from "@docusaurus/preset-classic";
 import docsToBlog from "./packages/docusaurus-plugin-docs-info/src";
 
 const config: Config = {
-  title: "一知",
-  tagline: "王一之的个人博客：分享知识，认识朋友",
+  title: "浅浅小饼干",
+  tagline: "浅浅小饼干の饼干坊，会有什么东西在这里呢？",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://blog.icodef.com",
+  url: "https://biscuitqz.top",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "codfrm", // Usually your GitHub org/user name.
-  projectName: "blog", // Usually your repo name.
+  organizationName: "Shallow-biscuit", // Usually your GitHub org/user name.
+  projectName: "Shallow-s-Biscuit-Factory", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -31,7 +31,7 @@ const config: Config = {
         sidebarPath: "./sidebars.ts",
         // Please change this to your repo.
         // Remove this to remove the "edit this page" links.
-        editUrl: "https://github.com/CodFrm/blog/edit/main",
+        editUrl: "https://github.com/Shallow-biscuit/Shallow-s-Biscuit-Factory/edit/main",
         showLastUpdateTime: true,
       },
     ],
@@ -65,7 +65,7 @@ const config: Config = {
         //   sidebarPath: "./sidebars.ts",
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
-        //   editUrl: "https://github.com/codfrm/blog",
+        //   editUrl: "https://github.com/Shallow-biscuit/Shallow-s-Biscuit-Factory",
         //   showLastUpdateTime: true,
         // },
         theme: {
@@ -86,7 +86,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "一知",
+      title: "Shallow.",
       logo: {
         alt: "Logo",
         src: "img/avatar.png",
@@ -104,21 +104,21 @@ const config: Config = {
         },
         {
           position: "right",
-          label: "Dev",
-          to: "/dev",
-          items: [
-            {
-              to: "/dev/language/golang",
-              label: "Golang",
-            },
-          ],
+          label: "MDEX",
+          to: "/MDEX",
+          // items: [
+          //   {
+          //     to: "/docs/MDEX/download",
+          //     label: "我的谱面获取",
+          //   },
+          // ],
         },
         {
           type: "docSidebar",
-          sidebarId: "ops",
+          sidebarId: "mew",
           position: "right",
-          label: "Ops",
-          to: "/ops",
+          label: "喵喵喵",
+          to: "/mew",
         },
         {
           type: "docSidebar",
@@ -128,8 +128,8 @@ const config: Config = {
           to: "/note",
         },
         {
-          href: "https://github.com/codfrm/blog",
-          label: "GitHub",
+          href: "http://disk.biscuitqz.top/",
+          label: "文件站",
           position: "right",
         },
       ],
@@ -138,7 +138,7 @@ const config: Config = {
     footer: {
       style: "dark",
       copyright: `<p>Copyright © ${new Date().getFullYear()} icodef.com, Built with Docusaurus.</p>
-      <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">湘ICP备19008073号</a></p>
+      <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">皖ICP备2024067432号</a></p>
       <p>若无特殊声明，本站所有内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" >CC BY-NC-SA 4.0 协议</a></p>`,
     },
     prism: {
