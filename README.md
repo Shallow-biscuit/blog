@@ -7,7 +7,7 @@
 
 ---
 
-> 如果你想基于本仓库部署自己的博客，可以查看下面的内容。关于本博客对 docusaurus 的一些修改，你可以查看[我为什么换掉 Wordpress 选择 Docusaurus？](./docs/note//为什么换掉Wordpress.md)
+> 如果你想基于本仓库部署自己的博客，可以查看下面的内容。关于本博客对 docusaurus 的一些修改，你可以查看[我为什么换掉 Wordpress 选择 Docusaurus？](https://github.com/CodFrm/blog/blob/main/docs/note/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8D%A2%E6%8E%89Wordpress.md)
 
 ## 运行
 
