@@ -15,74 +15,39 @@ function HomepageHeader() {
       <div className="flex flex-row text-left px-8 items-center">
         <div className="flex flex-col flex-1">
           <h1 className="text-4xl mb-8">
-            Hi！我是
-            <span style={{ color: "var(--ifm-color-primary)" }}>王一之</span>
+            Hello！这里是
+            <span style={{ color: "var(--ifm-color-primary)" }}>浅浅小饼干</span>
           </h1>
-          <p className="text-lg">
-            欢迎来到我的个人博客，一个什么都会点的全
+          <h2 className="text-lg">
+            你也可以叫我Shallow.，芝士一个属于浅浅的小基地！
+            </h2>
+            <p className="text-2g">
+            这里会藏有各种关于我的
             <span className={styles["hide-zhan"]}>
-              <span className={styles["hide-zhan-1"]}>栈</span>
-              <span className={styles["hide-zhan-2"]}>沾</span>
+              <span className={styles["hide-zhan-1"]}>废话</span>
+              <span className={styles["hide-zhan-2"]}>秘密</span>
             </span>
-            工程师，这里记录了我的一些学习笔记和技术分享。目前主要使用
-            <Link to="https://go.dev/">
-              <code>Golang</code>
+            ）
+            </p>
+           <p className="text-3g">
+           如果你想加入MDEX的话，请去查看
+            <Link to="https://shadowdr.cn/help">
+              <code>官方Wiki</code>
             </Link>
-            与
-            <Link to="https://www.typescriptlang.org/">
-              <code>TypeScript</code>
+            ；同时也可以关注一下MDEX的
+            <Link to="https://space.bilibili.com/3546391632676899/?spm_id_from=333.999.0.0">
+              <code>官号</code>
             </Link>
-            ✖️
-            <Link to="https://react.dev/">
-              <code>React</code>
-            </Link>
-            进行开发，也会写一些关于
-            <Link to="/ops">
-              <code>运维</code>
-            </Link>
-            、
-            <Link to="/ops">
-              <code>工具分享</code>
-            </Link>
-            之类的文章。
-            <br />
-            平常喜欢做开源项目，目前我正在开发
-            <Link to="https://docs.scriptcat.org" rel="">
-              <code>脚本猫</code>
-            </Link>
-            与运营
-            <Link to="https://bbs.tampermonkey.net.cn/" rel="">
-              <code>油猴中文网</code>
-            </Link>
-            ，你可以在我的
-            <Link to="https://github.com/codfrm">
-              <code>Github</code>
-            </Link>
-            中找到更多关于我的开源项目。
-            <br />
-            <br />
-            博客源码托管在
-            <Link
-              to={
-                "https://github.com/" +
-                siteConfig.organizationName +
-                "/" +
-                siteConfig.projectName
-              }
-              rel=""
-            >
-              <code>GitHub</code>
-            </Link>
-            上，如果觉得还不错，顺手点个 Star 吧！
+            喵！
           </p>
           <div className={"flex flex-row gap-3 " + styles.social}>
-            <a href="https://space.bilibili.com/17047572" target="_blank">
+            <a href="https://space.bilibili.com/87417184?spm_id_from=333.1007.0.0" target="_blank">
               <Icon icon="ri:bilibili-fill" />
             </a>
-            <a href="https://github.com/CodFrm" target="_blank">
-              <Icon icon="ri:github-fill" />
+            <a href="https://qm.qq.com/q/9CWj3Cebi8" target="_blank">
+              <Icon icon="ri:qq-fill" />
             </a>
-            <a href="mailto:yz@ggnb.top">
+            <a href="mailto:3119817271@qq.com">
               <Icon icon="ri:mail-fill" />
             </a>
           </div>
@@ -94,7 +59,7 @@ function HomepageHeader() {
               </button>
             </Link>
             {/* <a
-              href="https://github.com/CodFrm"
+              href="https://github.com/Shallow-biscuit"
               style={{
                 height: "20px",
               }}
@@ -103,8 +68,8 @@ function HomepageHeader() {
             </a> */}
           </div>
         </div>
-        <div className="flex-1">
-          <img src="/img/home-1.svg" />
+        <div className="flex-1"> 
+          <img src="/img/bg.png"/>
         </div>
       </div>
       <div

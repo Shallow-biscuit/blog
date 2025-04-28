@@ -9,11 +9,11 @@ export default function Comments(): JSX.Element {
     <div>
       <Giscus
         id="comments"
-        repo="codfrm/blog"
-        repoId="MDEwOlJlcG9zaXRvcnkxOTY2ODAyNzk="
-        category="Blog Message"
-        categoryId="DIC_kwDOC7kaV84CeCC_"
-        mapping="og:title"
+        repo="Shallow-biscuit/Shallow-s-Biscuit-Factory"
+        repoId="R_kgDONGdn-g"
+        category="Announcements"
+        categoryId="DIC_kwDONGdn-s4Cjuti"
+        mapping="title"
         strict="0"
         reactionsEnabled="1"
         emitMetadata="0"
