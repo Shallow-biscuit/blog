@@ -1,5 +1,6 @@
 <h1 align="center"> 浅浅小饼干的个人博客 </h1>
 <p align="center">用于个人日常分享以及Muse Dash/Extra等各项公告</p>
+<p align="center">博客地址：biscuitqz.top</p>
 
 ---
 
