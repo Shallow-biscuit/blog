@@ -1,5 +1,5 @@
-<h1 align="center"> 王一之的个人博客 </h1>
-<p align="center">分享知识，记录生活，认识朋友</p>
+<h1 align="center"> 浅浅小饼干的个人博客 </h1>
+<p align="center">用于个人日常分享以及Muse Dash/Extra等各项公告</p>
 
 ---
 
@@ -15,7 +15,7 @@
 
 ```bash
 # 克隆与进入仓库
-git clone https://github.com/codfrm/blog.git
+git clone https://github.com/Shallow-biscuit/blog.git
 cd blog
 # 安装依赖
 npm i
